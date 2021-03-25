@@ -8,6 +8,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dateTimeLabel: UILabel!
+    @IBOutlet weak var currencyLabel: UILabel!
+        
     private func addBottomLabel() {
         
         let bottomLabel = UILabel()
@@ -43,6 +46,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         addBottomLabel()
         addButton()
+        
+        dateTimeLabel.text = Date().description
     }
 }
 
