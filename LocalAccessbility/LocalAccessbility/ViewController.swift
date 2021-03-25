@@ -9,7 +9,6 @@ import UIKit
 class ViewController: UIViewController {
 
     private func addBottomLabel() {
-        // Do any additional setup after loading the view.
         
         let bottomLabel = UILabel()
         bottomLabel.frame = CGRect(x: 20, y: view.bounds.size.height - 150, width: view.bounds.size.width - 40, height: 50)
@@ -24,6 +23,7 @@ class ViewController: UIViewController {
         
         view.addSubview(bottomLabel)
     }
+    
     private func addButton() {
         // Do any additional setup after loading the view.
         
@@ -43,9 +43,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         addBottomLabel()
         addButton()
-        
     }
-
-
 }
 
