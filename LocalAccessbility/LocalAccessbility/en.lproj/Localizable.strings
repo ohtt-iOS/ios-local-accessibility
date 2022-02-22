@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalAccessbility
+
+  Created by soyounglee on 2022/02/22.
+  
+*/
+
+"text1" = "Touch the button below!";
+"text2" = "Touch Me!";
+
